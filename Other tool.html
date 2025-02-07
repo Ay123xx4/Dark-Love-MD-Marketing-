@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other Tool</title>
+    <style>
+  body {
+    background-image: url(https://telegra.ph/file/7d7112d331a345d558149.jpg);
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: white; /* Light grey background */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+h1{
+  color: red;
+}
+
+.button-container {
+      background-color: transparent;
+    margin-top: 20px; /* Space above buttons */
+}
+
+button {
+  border-color: #39c0fa;
+      background-color: transparent;/* Button background color */
+    margin: 10px 0; /* Vertical margin between buttons */
+    padding: 15px 30px; /* Padding inside buttons */
+    font-size: 16px; /* Font size for button text */
+    border: none solid ; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s; /* Transition for hover effects */
+    width: 200px; /* Fixed width for buttons */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darken background on hover */
+    transform: translateY(-3px); /* Slightly move the button up on hover */
+}
+
+button:active {
+    transform: translateY(2px); /* Move down slightly on button click */
+}
+  </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Other Tools</h1>
+        
+        <div class="button-container">
+            <button onclick="window.location.href='calculator.html'">Calculator</button>
+            <br>
+            <button onclick="window.location.href='clock.html'">Time</button>
+            <br>
+        </div>
+    </div>
+</body>
+</html>
